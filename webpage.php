@@ -48,7 +48,7 @@
                 echo "<a class='nav-link'> <button class = 'btn btn-secondary' onclick='Show(x = `Table`)'> Table </buton></a>";
             } else
                 //it's hidden :)
-                echo "<a href='Login.php'><button class='btn btn-outline-success my-2 my-sm-0'>Login</button></a>";
+                echo "<a href='Login.php'><button class='btn btn-primary my-2 my-sm-0'>Login</button></a>";
             ?>
         </nav>
     </div>
@@ -136,4 +136,7 @@ hahai
 
     <!-- My js -->
     <script src="js.js"></script>
+    <?php
+    session_reset();
+    ?>
 </html>
